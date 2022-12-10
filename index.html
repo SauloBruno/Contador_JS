@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Contador</title>
 </head>
 <body>
     <h1>Olá, mundo!</h1>
     <p>Este é o meu primeiro projeto Javascript.</p>
     <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
+        <!--propriedade onclick na tag button indica que quando clicarem nesse botão algo vai acontecer, nesse caso a chamada de uma função em js-->
+        <button name="subtrair" onclick="decrementar()">-</button>
         <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
+        <button name="adicionar" onclick="incrementar()">+</button>
     </div>
-    <script src="assets/scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
